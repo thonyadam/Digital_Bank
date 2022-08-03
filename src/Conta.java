@@ -31,6 +31,17 @@ public abstract class Conta implements IConta {
 		contaDestino.depositar(valor);
 	}
 
+	@Override
+	public double analisarEmprestimo() {
+
+		return 0;
+	}
+
+	public String solicitarEmprestimo(double valor){
+
+		return "";
+	}
+
 	public int getAgencia() {
 		return agencia;
 	}
