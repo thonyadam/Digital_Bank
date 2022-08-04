@@ -7,7 +7,9 @@ public interface IConta {
 	
 	void transferir(double valor, IConta contaDestino);
 
-	double analisarEmprestimo();
+	String analisarEmprestimo();
+
+	double valorEmprestimo();
 
 	String solicitarEmprestimo(double valor);
 	
